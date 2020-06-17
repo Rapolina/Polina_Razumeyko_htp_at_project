@@ -1,0 +1,18 @@
+Feature: Check header elements
+Scenario: Check 12 buttons
+
+Given I go to booking.com
+When I sign in as registered user
+Then I verify accommodation button
+And I verify booking img
+And I verify button stays
+And I verify button flights
+And I verify button car rentals
+And I verify button attractions
+And I verify button airport taxis
+And I verify button currencies
+And I verify button language
+And I verify button notifications
+And I verify button assistant center
+And I verify button list property
+And I verify button personal account

@@ -1,0 +1,8 @@
+Feature: Favorite hotel selection
+Scenario: Check next trip on the site booking.com
+
+Given I go to booking.com and log in
+Then I sign in as registered user
+And I select favorite hotels
+Then I check heart color
+And I check my trip list

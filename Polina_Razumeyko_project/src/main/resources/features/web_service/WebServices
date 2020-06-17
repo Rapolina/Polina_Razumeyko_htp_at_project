@@ -1,0 +1,8 @@
+Feature: Search Webservices
+Scenario: Find yhe right users
+
+Given: I check all json users
+Then: I verify users by partial name short
+Then: I verify users by partial name long
+Then: I verify users by full name short
+Then: I verify users by full name long
